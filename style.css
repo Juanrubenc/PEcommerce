@@ -1,0 +1,56 @@
+.estilo{
+    display: flex;
+    background-color: rgb(235, 74,90);
+    height: 35vh;
+    background-image: url(/logo_academlo_blanco.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    box-shadow: #89f7fe;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+h1{
+    font-family: sans-serif ;
+    color:white;
+    font-weight: 800;
+}
+body{
+    background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+}
+
+@media only screen and (min-width: 800px){
+    .estilo{
+        display: flex;
+        background-color: rgb(235, 74,90);
+        height: 35vh;
+        background-image: url(/logo_academlo_blanco.png);
+        background-repeat: no-repeat;
+        background-size: 60%;
+        background-position: center;
+        box-shadow: #89f7fe;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
+    }
+
+    
+    @media only screen and ((min-width: 500px) and (max-width:799px)){
+        .estilo{
+            display: flex;
+            background-color: rgb(235, 74,90);
+            height: 35vh;
+            background-image: url(/logo_academlo_blanco.png);
+            background-repeat: no-repeat;
+            background-size: 90%;
+            background-position: center;
+            box-shadow: #89f7fe;
+            justify-content: center;
+            align-items: flex-end;
+        
+        }
+    
+    }
